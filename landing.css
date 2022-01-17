@@ -1,0 +1,191 @@
+/* this is main conataner  */
+.contaner{
+    display: grid;
+    height: 1250px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px;
+}
+.conataner>div{
+    border: 1px solid red;
+   
+}
+/* this is navbar */
+.header{
+    display: flex;
+    height: 100px;;
+    width: 100%;
+   
+    justify-content: space-evenly;
+}
+.footer{
+    height: 300px; 
+    background-color: mediumseagreen;  
+  
+    
+}
+.footer>div{
+    display: flex;
+    justify-content: center;
+}
+.footer>div>div{
+    height: 10pxpx;
+    width: 20px;
+    border: 1px solid yellow;
+    
+
+}
+#header>div{
+    height: 100%;
+    width: 30%;
+    
+    
+    
+}
+#logoimg{
+    height: 90%;
+    width: 70%;
+}
+.kindmeallog{
+    margin-left: 15%;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.media>div>img{
+    height: 40%;
+    margin: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
+.sing>div{
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.sing>div>button{
+    margin-left: 15px;
+}
+.vl{
+border-left:2px solid grey;
+position:absolute;
+height:25px;
+
+}
+
+.fb{
+background-color: blue;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+.eml{
+background-color:grey;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+
+#navbar{
+    height: 46px;
+    width: 100%;
+    background-color:#3b7;  
+    
+}
+.option{
+    margin:0 12.3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.option>div{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.offerImg{
+    height: 420px;
+    width: 73%;
+    margin: auto;
+    margin-bottom: 65px;
+}
+/* in this News,Moment,Restorn,and Superheros */
+.info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-row-gap: 65px;
+    background-color:hsla(0, 0%, 86%, 0.185) ;
+}
+.info>div{
+    height: 300px;
+    width: 73%;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#text{
+    height: 50px;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+}
+#imgmap{
+    height: 233px;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+#imgmap>div{
+    height: 100%;
+    width: 18%;
+    border: 1px solid indigo;
+    border-radius: 5px;
+}
+#imgmap>div>img{
+    height: 70%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+#imgmap>div>p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size:12px ;
+    color:#888888 ;
+    text-align: center;
+    font-weight: 400;
+}
+
+.title{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #666666;
+    font-weight: 400 ;
+    cursor: pointer;
+}
+.infotle{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color:#2184ff ;
+    font-size: 20px;
+    font-weight:400 ;
+     cursor: pointer;
+}
+.pet{
+    height: 1400px;
+    border: 1px solid orangered;
+}
+.titlepet{
+    font-family:Roboto, Arial, Helvetica, sans-serif;;
+    color:#666666 ;
+    font-size: 36px;
+    font-weight:400 ;
+    text-align: center;
+    
+}
