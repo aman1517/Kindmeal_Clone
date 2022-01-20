@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:80px 50px 200px 140px 1fr;
+    grid-template-areas:
+    "a a a a a a "
+    "b b b b b b "
+    "c c c c c c"
+    "d d d d d d"
+    "e e e e e e"
+    "f f f f f f"
+    ;
+}
+.container>div{
+    border: 1px solid red;
+
+}
+.item1{
+    grid-area: a;
+}
+.item2{
+    grid-area: b;
+}
+.item3{
+    grid-area: c;
+    background-color:whitesmoke ;
+    
+}
+.item4{
+    grid-area: d;
+}
+.item5{
+    grid-area: e;
+}
+.item6{
+    grid-area: f; 
+    display: grid;
+    width: 60%;
+    margin: auto;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(8,1fr);
+    justify-content: space-between;
+    border: 1px solid yellow;
+}
+.item6>div{
+ border: 1px solid gainsboro;
+}

@@ -4,93 +4,372 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MealDeal</title>
     <link rel="stylesheet" href="meadeal.css">
     <script src="https://kit.fontawesome.com/54aead19a6.js" crossorigin="anonymous"></script>
+    <title>Kindmeal</title>
 </head>
 <body>
+    <div class="contaner">
+        <div class="header">
+            <div class="kindmeallog">
+                <img id="logimg" src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="kindeallogo">
+            </div>
+            <div class="media">
+            <div>
+                <img src="https://www.kindmeal.my/images/follow_facebook_grey.png" alt="link">
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/images/follow_twitter_grey.png" alt="link">
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link">
+            </div>
     
-    <!-- ---------------Seachbar Start------------------------------------------------ -->
-    <div class="serchbar">
-    <div>
-    <span style="font-size:28px;">Meet Free-Deals</span>
-    <span style="font-size:28px;">|</span>
-    <span style="font-size:28px;color: #888888;">Restaurants In Malaysia</span>
-    <span class="like">
-        <button style="border-radius: 20px;"> <i class="fab fa-twitter"></i>tweeter</button>
-        <button>share</button>
-         <button> <i class="far fa-thumbs-up"></i>Like 5</button>
-    </span>
-    <p class="txt">Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants. No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount! </p>
- <p class="txt">Download our <a href="https://www.kindmeal.my/mobile.htm">mobile app</a>  now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>  
-<div id="seach-box">
-    <form action="">
-        <input  class= "optnsum"  type="text " value="" placeholder="Serach Shope or Deal Home">
-    <select   class= "optnsum"name="All Category">
-        <option value="">All Category</option>
-        <option value="">Pasta</option>
-        <option value="">Burger</option>
-        <option value="">Breakgast</option>
-        <option value="">Salad</option>
-        <option value="">Beckeay</option>
-        <option value="">Tea & Desert</option>
-        <option value="">Local Delight</option>
-        <option value="">Jap & Korin</option>
-        <option value="">Chines</option>
-        <option value="">Indian</option>
-        <option value="">Shup</option>
-        <option value="">Cute</option>
-    </select>
-    <select  class= "optnsum" name="Locaation" >
-        <option value="">All Location</option>
-        <option value="">Kalam Valley</option>
-        <option value="">. Kualalumpur</option>
-        <option value="">.Petaling Jaya</option>
-        <option value="">.Ampang</option>
-        <option value="">.Ara Damansara</option>
-        <option value="">.Bangsar</option>
-        <option value="">.Bangsar South</option>
-        <option value="">Bukite Bintang</option>
-        <option value="">Bukite Damansara</option>
-    </select>
-    <input id="srchbtn"  class= "optnsum" type="Submit" value="Search Deal">
-    <input  class= "optnsum" id="brws"  type="submit" value="Browes Restaurant" >
-    </form>   
-</div>
-</div>
+            </div>
+            <div class="sing">
+                <div>
+             <label>login</label>
+             <button class="fb">facebook</button>
+             <button class="eml fb">Email</button>
+             <label class="vl"></label>
+             <label style="margin-left: 10px;">Sign up</label>
+             </div>
+            </div>
+        </div>
+        <!-- -----------Header Enad----------- -->
+        <div id="navbar"> 
+            <div class="option">
+                <div>Home</div>
+                <div>Meal Deals</div>
+                <div>Kind Moments</div>
+                <div>Hot Pics</div>
+                <div>Recipes</div>
+                <div>Directory</div>
+                <div>Articles</div>
+                <div  style="color: yellow;"> Digi Rewards</div>
+                <div>Help</div>
+            </div>
+        </div>
+        <!-- -----------Navbar End========== -->
+       
+        <div  class="bgimg" >
+        
+            <div class="serchbar">
+                <div>
+                <span style="font-size:28px;">Meet Free-Deals</span>
+                <span style="font-size:28px;">|</span>
+                <span style="font-size:28px;color: #888888;">Restaurants In Malaysia</span>
+                <span class="like">
+                    <button style="border-radius: 20px;"> <i class="fab fa-twitter"></i>tweeter</button>
+                    <button>share</button>
+                     <button> <i class="far fa-thumbs-up"></i>Like 5</button>
+                </span>
+                <p class="txt">Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants. No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount! </p>
+             <p class="txt">Download our <a href="https://www.kindmeal.my/mobile.htm">mobile app</a>  now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>  
+            <div id="seach-box">
+                <form action="">
+                    <input  class= "optnsum"  type="text " value="" placeholder="Serach Shope or Deal Home">
+                <select   class= "optnsum"name="All Category">
+                    <option value="">All Category</option>
+                    <option value="">Pasta</option>
+                    <option value="">Burger</option>
+                    <option value="">Breakgast</option>
+                    <option value="">Salad</option>
+                    <option value="">Beckeay</option>
+                    <option value="">Tea & Desert</option>
+                    <option value="">Local Delight</option>
+                    <option value="">Jap & Korin</option>
+                    <option value="">Chines</option>
+                    <option value="">Indian</option>
+                    <option value="">Shup</option>
+                    <option value="">Cute</option>
+                </select>
+                <select  class= "optnsum" name="Locaation" >
+                    <option value="">All Location</option>
+                    <option value="">Kalam Valley</option>
+                    <option value="">. Kualalumpur</option>
+                    <option value="">.Petaling Jaya</option>
+                    <option value="">.Ampang</option>
+                    <option value="">.Ara Damansara</option>
+                    <option value="">.Bangsar</option>
+                    <option value="">.Bangsar South</option>
+                    <option value="">Bukite Bintang</option>
+                    <option value="">Bukite Damansara</option>
+                </select>
+                <input id="srchbtn"  class= "optnsum" type="Submit" value="Search Deal">
+                <input  class= "optnsum" id="brws"  type="submit" value="Browes Restaurant" >
+                </form>   
+            </div>
+            </div>
+                </div>
+        </div>
+        <div class="pge">
+            <div class="pagesrch">
+                <div><span style="padding-right: 0px;color: black;">Page:</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span> </div>
+                <div><button id="next">Next>></button></div>
+            </div> 
+        </div>
+        <div  class="proDuct">
+            <div class="proDuct1">
+                <div class="pro2" style=" position: relative;">
+                    <img  src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                   <p class="text-block " id="relText" >Fusion  Gourmet Cusine</p>
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                   <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                   <p>—  Petaling Jaya, Selangor</p>
+                </div >
+                <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                <div id="sub">
+                    <div><button>Get Free Coupon</button></div>
+                    <div>
+                        <i class="far fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                        <i class="far fa-star"></i> 
+                        5
+                    </div>
+                </div>
+                <div class="disc">
+                    <div class="botol">
+                        <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                    </div>
+                    <div class="offdis">
+                        <p>Kindmeal Discount</p>
+                        <p>10% Off</p>
+                    </div>
+                    <div class="offdis">
+                        <p>Exprie In</p>
+                        <p style="color:#888888;margin-right:14px;">12 days</p>
+                    </div>
+                </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+                <div class="pro2">
+                    <img src="https://www.kindmeal.my/photos/deal/6/692-4538-m.jpg" alt="phot">
+                    <div class="forflx"><p>Alice Kitchen by Yishensu </p>
+                    <p>—  Petaling Jaya, Selangor</p>
+                 </div >
+                 <p>Embark on a creative meat-free burger adventure at Mama Burger KL to satisfy your deepest cravings! Packed with quality ingredien..</p>
+                 <div id="sub">
+                     <div><button>Get Free Coupon</button></div>
+                     <div>
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         <i class="far fa-star"></i> 
+                         5
+                     </div>
+                 </div>
+                 <div class="disc">
+                     <div class="botol">
+                         <img src="https://www.kindmeal.my/images/icon_egg.png" alt=""><img src="https://www.kindmeal.my/images/icon_milk.png" alt=""><img src="https://www.kindmeal.my/images/icon_alcohol_disabled.png" alt="">
+                     </div>
+                     <div class="offdis">
+                         <p>Kindmeal Discount</p>
+                         <p>10% Off</p>
+                     </div>
+                     <div class="offdis">
+                         <p>Exprie In</p>
+                         <p style="color:#888888;margin-right:14px;">12 days</p>
+                     </div>
+                 </div>
+                </div>
+               
+            </div>
+           
+        </div>
+        <div class="pge1"> lst age</div>
+        <div class="img3">
+           <div> <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt=""></div>
+        </div>
+        <div class="footer">55</div>
+        
     </div>
-
-<!-- -----------Searchbar End------------- -->
-<div class="contaner">
-<div class="rewardimg">
-   <div class="bgimg">
-   </div>
-</div>
-
-<div class="pagesrch">
-    <div><span style="padding-right: 0px;color: black;">Page:</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span> </div>
-    <div><button id="next">Next>></button></div>
-</div>
-<div></div>
-<div></div>
-<div ></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
 </body>
 </html>

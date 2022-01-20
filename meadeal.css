@@ -1,121 +1,336 @@
-
-.serchbar{
-height: 250px;
-width: 100%;
-border: 1px solid red;
-background-color:whitesmoke;
-}
-.serchbar>div{
-    height: 100%;
-    width: 60%;
-    border: 1px solid green;
-    margin: auto;
-}
-.like{
-   width: 40%;
-   margin-left: 17%;
-}
-.like>button{
-    background-color: blue;
-    color: white;
-    margin-left: 20px;
-    border: none;
-   
-}
-.optnsum{
-    height: 30px;
-    font-size: 16px;
-    color:#666666 ;
-    margin-left: 15px;
-}
-.optnsum>option{
-    font-family:Roboto, Arial;
-    font-size: 16px;
-    color: #666666;
-    font-weight: 400;
-}
-#srchbtn{
-background-color: red;
-color: white;
-border-radius: 5px;
-width: 165px;
-height: 35px;
-border: none;
-font-weight: bold;
-cursor: pointer;
-text-align: center;
-}
-#brws{
-    text-align: center;
-    background-color: green;
-    color: white;
-border-radius: 5px;
-width: 160px;
-height: 35px;
-border: none;
-font-weight: bold;
-cursor: pointer;
-width: 180px;
-}
-.txt{
-    font-family:Roboto, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #000000;
-    font-weight: 400;
-}
-/* ------------Seachbar End----------- */
 .contaner{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 400px 1200px;
-    grid-row-gap: 20px;
+    grid-template-rows: 100px 50px 300px 40px 3000px 40px 250px 300px;
     grid-template-areas: 
     "a a a a a a a a a a a a"
-    "b b b b b b b b b b b b";
-   
+    " b b b b b b b b b b b b"
+      "c c c c c c c c c c c c"
+      "d d d d d d d d d d d d"
+     "e e e e e e e e e e e e"
+     "f f f f f f f f f f  f f"
+     "g g g g g g g g g g g g "
+     "h h h h h h h h h h h h";
 }
 .contaner>div{
-    border: 1px solid red;
-   
+    border: 1px solid black;
 }
-.rewardimg{
-    grid-area: a;
-    width: 60%;
-    height: 300px;
-    margin: auto;
-   
-}
-.pagesrch{
-    grid-area:b;
-    width: 68%;
-    margin: auto;
-    height:40px;
-    margin-top: 0px;
+.header{
+    grid-area:a;
+    justify-content: space-evenly;
     display: flex;
-    justify-content: space-between;
+   
 }
-.pagesrch>div>span{
-    margin-left:20px;
-    font-size: 18px;
-    cursor: pointer;
-    color: blue;
+#header>div{
+    height: 100%;
+    width: 30%;
+ 
 }
-.pagesrch>div>span:nth-child(2){
-    border: 1px solid gray;
-    background-color: gray;
-    color: white;
+#logoimg{
+    height: 90%;
+    width: 70%;
 }
-#next{
-    background-color: whitesmoke;
-    height: 30px;
-    width: 80px;
-    font-size: 16px;
-    margin-right: 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+.kindmeallog{
+    margin-left: 15%;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    
 
 }
-.bgimg{
-   background-image: url("https://www.kindmeal.my/images/campaigns/digirewards/digi-banner-1100x280.jpg")
+.media>div>img{
+    height: 40%;
+    margin: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  
 }
+.sing>div{
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.sing>div>button{
+    margin-left: 15px;
+}
+.vl{
+border-left:2px solid grey;
+position:absolute;
+height:25px;
+
+}
+
+.fb{
+background-color: blue;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+.eml{
+background-color:grey;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+#navbar{
+    grid-area: b;
+    background-color: green;
+}
+.option{
+    margin:0 12.3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.option>div{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+/* =================Navbar End============== */
+.bgimg{
+    grid-area: c;
+    
+}
+.pge{
+    grid-area: d;
+}
+.proDuct{
+    grid-area:e;
+    margin-top: 10px;
+   
+}
+.proDuct1{
+ width: 70%;
+ height: 100%;
+ margin: auto;
+ border: 1px solid gainsboro;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ grid-template-rows: 500px 500px 500px 500px ;
+ border: 10px;
+ grid-gap: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.proDuct1>div{
+   border: 1px solid blueviolet;
+   border-radius: 10px;
+   
+}
+.pro2>img{
+    height: 60%;
+    width: 100%;
+}
+.pro2>p{
+    font-size: 16px;
+    color:#444444;
+    font-weight: 400;
+    padding-top: 0px;
+    
+}
+.forflx{
+    display: flex;
+    height: 20px;
+ 
+}
+.forflx>p:nth-child(1){
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.forflx>p:nth-child(1):hover{
+    text-decoration: underline;
+}
+.forflx>p:nth-child(2){
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
+#sub{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+#sub>div>button{
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size:20px;
+    width:100%;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+}
+#sub>div>i{
+    background-color: yellow;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.disc{
+    border: 1px solid yellow;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+.botol>img{
+    margin-left: 7px;
+    height: 60%;
+    margin-top: 20px;
+   
+}
+.offdis>p:nth-child(1){
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color:#000000;
+    font-size: 15px;
+    font-weight: 400;
+}
+.offdis>p:nth-child(2){
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color:#fb2222;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -9px;
+}
+
+
+   
+
+
+.pge1{
+    grid-area: f;
+}
+.img3{
+    grid-area: g;
+    background-color: whitesmoke;
+}
+.img3>div{
+    width:60%;
+    height: 100%;
+    margin: auto;    
+}
+.img3>div>img{
+    height: 100%;
+    width: 100%;
+}
+.text-block {
+    position: absolute;
+    bottom: 180px;
+    right: 0px;
+    width: 100%;
+    height: 5%;
+    color: rgb(197, 37, 37);
+    background-color: rgba(0, 0, 0, 0.589);
+    text-align: center;  
+  }
+  #relText{
+      font-size: 20px;
+      color: white;
+      padding-top: 7px;
+  }
+.footer{
+    grid-area: h;
+}
+
+.serchbar{
+    height: 250px;
+    width: 100%;
+    border: 1px solid red;
+    background-color:whitesmoke;
+    }
+    .serchbar>div{
+        height: 100%;
+        width: 65%;
+        border: 1px solid green;
+        margin: auto;
+    }
+    .like{
+       width: 40%;
+       margin-left: 17%;
+    }
+    .like>button{
+        background-color: blue;
+        color: white;
+        margin-left: 20px;
+        border: none;
+       
+    }
+    .optnsum{
+        height: 30px;
+        font-size: 16px;
+        color:#666666 ;
+        margin-left: 15px;
+    }
+    .optnsum>option{
+        font-family:Roboto, Arial;
+        font-size: 16px;
+        color: #666666;
+        font-weight: 400;
+    }
+    #srchbtn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 165px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    }
+    #brws{
+        text-align: center;
+        background-color: green;
+        color: white;
+    border-radius: 5px;
+    width: 160px;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 180px;
+    }
+    .txt{
+        font-family:Roboto, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #000000;
+        font-weight: 400;
+    }
+    .pagesrch{
+        grid-area:b;
+        width: 68%;
+        margin: auto;
+        height:40px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pagesrch>div>span{
+        margin-left:20px;
+        font-size: 18px;
+        cursor: pointer;
+        color: blue;
+    }
+    .pagesrch>div>span:nth-child(2){
+        border: 1px solid gray;
+        background-color: gray;
+        color: white;
+    }
+    #next{
+        background-color: whitesmoke;
+        height: 30px;
+        width: 80px;
+        font-size: 16px;
+        margin-right: 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    
+    }
+    
