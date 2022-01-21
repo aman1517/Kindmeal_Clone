@@ -1,0 +1,240 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:100px 50px 210px 1fr 270px 50px;
+    grid-template-areas:
+    "a a a a a a"
+    "b b b b b b"
+    "c c c c c c"
+    "d d d d d d"
+    "z z z z z z"
+    "x x x x x x";
+}
+
+.item1{
+    grid-area: a;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+
+#header>div{
+    height: 100%;
+    width: 30%;
+ 
+}
+#logoimg{
+    height: 90%;
+    width: 70%;
+}
+.kindmeallog{
+    margin-left: 15%;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.media>div>img{
+    height: 40%;
+    margin: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
+.sing>div{
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.sing>div>button{
+    margin-left: 15px;
+}
+.vl{
+
+position:absolute;
+height:25px;
+
+}
+
+.fb{
+background-color: blue;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+.eml{
+background-color:grey;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+/* =======================header End=============================== */
+#navbar{
+    grid-area: b;
+    background-color: green;
+}
+
+.option{
+    margin:0 12.3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.option>div{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+
+}
+/* ===============nabar End============== */
+.item3{
+    grid-area: c;
+    background-color: whitesmoke;
+
+}
+.item3>div{
+    height: 80%;
+    width: 70%;
+    margin: auto;
+    margin-top:25px;
+}
+.item3>div>p:nth-child(1){
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:28px ;
+    color:#444444 ;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.item3>div>p{
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:14px ;
+    color:#444444 ;
+    font-weight: 400;
+   margin-top: 0px;
+}
+/* ========================================artical start=============== */
+.item4{
+    grid-area: d;
+}
+.item4>div{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+   
+}
+.item4>div>div{
+    height: 280px;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.pro-duct{
+    display: flex;
+}
+.pro-duct>div:nth-child(1){
+    height: 98%;
+    width: 37%;
+ 
+}
+.pro-duct>div:nth-child(2){
+    height: 98%;
+    width: 59%;
+  
+    margin-left: 36px;
+}
+.pro-duct>div>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.text-box>p:nth-child(1){
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:22px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.text-box>p:nth-child(2){
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: -15px;
+   
+}
+.text-box>p:nth-child(3){
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: #444444;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.text-box>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.text-box>div>button{
+    height: 40px;
+    width: 30%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-box>div>span{
+    font-size: 17px;
+    margin-right: 10px;
+}
+.footer{
+    grid-area: z;
+    background-color: mediumseagreen;  
+    display: flex;  
+}
+
+.footer>div{
+    height: 90%;
+    width: 70%;
+   
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>div>div{
+    height: 100%;
+    width: 20%;
+   
+}
+.footer>div>div>h2{
+ font-size: Roboto, Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ color: white;
+}
+.footer>div>div>p{
+    color: white;
+    line-height: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cpy{
+    grid-area: x;
+    background-color:mediumseagreen;
+
+}
+.cpy>p{
+    font-size: Roboto, Arial, Helvetica, sans-serif;
+     font-size: 10px;
+     font-weight: 700;
+     text-align: center;
+     color: white;
+    }

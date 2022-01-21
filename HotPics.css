@@ -35,7 +35,7 @@
 .item6{
     grid-area: f; 
     display: grid;
-    width: 60%;
+    width: 70%;
     margin: auto;
     grid-gap: 30px;
     grid-template-columns: repeat(2,1fr);
@@ -45,4 +45,30 @@
 }
 .item6>div{
  border: 1px solid gainsboro;
+}
+.item6>div:nth-child(1){
+
+}
+.proText{
+    height: 30px;
+    width: 100%;
+    border: 1px solid yellow;
+}
+#titletxt{
+    display: flex;
+}
+.boxcheck{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+   
+    border: 1px solid yellow;
+}
+.boxcheck>div>button{
+  height: 35px;
+  width: 118px;
+  background-color:whitesmoke;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }

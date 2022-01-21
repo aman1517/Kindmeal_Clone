@@ -193,6 +193,9 @@ cursor: pointer;
 #imgmap>div>p:hover{
     text-decoration: underline;
 }
+.zoomtxt{
+    font-size: 18px;
+}
 
 .title{
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -348,3 +351,15 @@ cursor: pointer;
     margin-top: 25px;
     border: 1px solid yellow;
 }
+.animationimg{
+  display: flex;
+  height: 70%;
+  width: 100%;
+  border: 1px solid red;
+}
+.animationimg>div:nth-child(1){
+    height: 100%;
+    width: 60%;
+    border: 1px solid red;
+}
+/* ======================================================== */

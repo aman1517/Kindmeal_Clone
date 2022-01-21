@@ -1,0 +1,104 @@
+.container{
+    height: 600px;
+    width: 35%;
+    margin: auto;
+    margin-top:5%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.chan{
+   
+    text-align: end;
+    margin: 10px;
+    cursor: pointer;
+}
+.chan>p:hover{
+    background-color: gray;
+    color:white;
+}
+.logoimg{
+    height: 25%;
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#join{
+    font-family:Roboto, Arial;
+    font-size:20px ;
+    color:#666666 ;
+    margin-top: 0px;
+    text-align: center;
+  
+}
+#join+p{
+    font-family:Roboto, Arial;
+    font-size:14px ;
+    color:#666666 ;
+    margin-top: -13px;
+    text-align: center;
+  
+}
+.foodlover{
+    height: 28%;
+    width: 90%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.foodlover:hover{
+    background-color: rgba(128, 128, 128, 0.158);
+}
+.foodlover>div:nth-child(1){
+    height: 100%;
+    width: 37%;
+    
+}
+.foodlover>div:nth-child(2){
+    height: 100%;
+    width: 60%;
+    margin-left: 3%;
+}
+.foodlover>div>img{
+    width: 90%;
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.foodlover>div>p:nth-child(1){
+    font-family:Roboto, Arial;
+    color:#666666;
+    font-size: 16px;
+    font-weight: 700;
+}
+.foodlover>div>p:nth-child(){
+    font-family:Roboto, Arial;
+    color:#666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.logoimg>div>img{
+    height: 100%;
+    width: 100%;
+}
+.fogetpass{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+   color:#666666;
+}
+.fogetpass>p{
+    cursor: pointer;
+    margin: 10px;
+}
+.fogetpass>p:hover{
+    text-decoration: underline;
+}

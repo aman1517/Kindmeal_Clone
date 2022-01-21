@@ -18,8 +18,21 @@ function gofbpg(event){
             window.location.href = "https://www.facebook.com/KindMeal.my";
         }
     document.querySelector(".goForSign").addEventListener("click",function(){
-        window.location.href="SignUp.html"
+        window.location.href="Foodloveronwer.html"
     })
     document.querySelector(".eml").addEventListener("click",function(){
         window.location.href="login.html"
     })
+    document.querySelector(".Home").addEventListener("click",function(){
+        window.location.href="landing.html"
+        
+    })
+    document.querySelector("#btn").addEventListener("click",function(){
+        window.location.href="SignOnwer.html"
+        
+    })
+    document.querySelector("#twitter").addEventListener("click",function(){
+        window.location.href="https://www.kindmeal.my/widget.htm"
+        
+    })
+
