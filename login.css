@@ -1,0 +1,81 @@
+.contaner{
+    height: 450px;
+    width: 37%;
+      margin: auto;
+      margin-top: 140px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+#chan{
+    font-family: Roboto, Arial;;
+    font-size: 15px;
+    text-align: end;
+    margin: 5px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+#chan:hover{
+
+}
+#logokindmea-img{
+    width: 60%;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+}
+#member-login{
+    font-size: 22px;
+    font-family:Roboto, Arial;
+    color:#666666 ;
+    text-align: center;
+    margin-top: 20px;
+}
+.frm{
+    width: 60%;
+    height: 230px;
+    margin: auto;
+}
+.frm>form>input{
+    height: 28px;
+    width: 300px;
+    margin-top: 10px;
+   
+}
+#sub{
+    height: 43px;
+    width: 200px;
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+#btn{
+    height: 47px;
+    width: 280px;
+   background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 25px;
+    cursor: pointer;
+}
+#btmtxr{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#btmtxr>p{
+    font-family:Roboto, Arial;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.719);
+    cursor: pointer;
+}
+#btmtxr>p:hover{
+    text-decoration: underline;
+}

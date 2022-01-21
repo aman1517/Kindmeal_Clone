@@ -1,0 +1,280 @@
+.contaner{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100px 50px 800px  ;
+    grid-template-areas: 
+    "a a a a a a a a a a a a "
+     "b b b b b b b b b b b b"
+    " h h h h  h h h h h h h h "
+      "d d d d d d d d d d d d"
+      " f f f f f f f f f f f f"
+      "z z z z z z z z z z z z";
+
+}
+
+.header{
+    grid-area: a;
+    justify-content: space-evenly;
+    display: flex;
+   
+}
+#header>div{
+    height: 100%;
+    width: 30%;
+ 
+}
+#logoimg{
+    height: 90%;
+    width: 70%;
+}
+.kindmeallog{
+    margin-left: 15%;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.media>div>img{
+    height: 40%;
+    margin: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
+.sing>div{
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+.sing>div>button{
+    margin-left: 15px;
+}
+.vl{
+border-left:2px solid grey;
+position:absolute;
+height:25px;
+
+}
+
+.fb{
+background-color: blue;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+.eml{
+background-color:grey;
+color: white;
+border-radius: 2px;
+font-size: 15px;
+cursor: pointer;
+}
+#navbar{
+    grid-area: b;
+    height: 50px;
+    background-color:#3b7 ;
+      
+}
+.option{
+    margin:0 12.3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.option>div{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+/* ----------------NAvbar End----------- */
+
+.offerImg{
+    height: 420px;
+    width: 73%;
+    margin: auto;
+    margin-bottom: 65px;
+}
+
+.footer{
+grid-area: f;
+background-color: mediumseagreen;  
+display: flex;  
+
+}
+.footer>div{
+    height: 90%;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>div>div{
+    height: 80%;
+    width: 20%;
+}
+.footer>div>div>h2{
+ font-size: Roboto, Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ color: white;
+}
+.footer>div>div>p{
+    color: white;
+    line-height: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#cpy{
+    grid-area: z;
+    background-color:mediumseagreen;
+    
+    margin-top: -30px;
+}
+#cpy>p{
+font-size: Roboto, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ text-align: center;
+ color: white;
+}
+/* ---------------Footer End------------ */
+
+
+.frm{
+    grid-area: h;
+    display: flex;
+    margin-left: 12%;
+    margin-right: 20%;
+    
+}
+.frmm{
+    
+    margin-right: 4%;
+    width: 50%;
+   
+   
+    
+}
+.frmm>div{
+   
+    border: 1px solid gray ;
+    margin-bottom: 8%;
+    border-radius: 5px;
+    padding-top: 13px;
+   height: 30%;
+   width: 100%;
+   
+
+}
+.frmm>div:nth-child(1){
+   
+    border: 1px solid gray ;
+    margin-bottom: 8%;
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+.frmm>div:nth-child(2){
+   
+    border: 1px solid gray ;
+    margin-bottom: 8%;
+    text-align: center;
+    
+}
+.frmm>div:nth-child(3){
+   
+ 
+    
+}
+.frmm>div>p:hover{
+    text-decoration: underline;
+}
+.txtkind>li{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   line-height: 14px;
+   
+}
+.frm3>p:nth-child(1){
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size:26px ;
+    color:#000000 ;
+    font-weight: 400;
+}
+.frm3>p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size:14px ;
+    color:#000000 ; 
+}
+.fillfrm{
+    height: 30px;
+    width: 50%;
+    margin: 10px;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.fillfrm1{
+    height: 30px;
+    width: 25%;
+    margin: 10px;
+    margin-left: 60px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.slttg{
+   margin-left: 60px;
+}
+#join{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 23%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+
+}
+.blwopn{
+    font-size: 18px;
+}
+.optn{
+    height:25px;
+    width: 30%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.optndmy{
+    height: 25px;
+    width: 10%;
+    font-size: 18px;
+}
+.optndmy:nth-child(1){
+    margin-left: 60px;
+}
+/* -----------------------Form End----------- */
+.bookimg{
+    grid-area: d;
+    height: 200px;
+    background-color:gainsboro ;
+}
+.bookimg>div{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    
+}
+.bookimg>div>img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------Footer start------------ */
