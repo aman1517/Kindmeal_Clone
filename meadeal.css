@@ -1,7 +1,7 @@
 .contaner{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 100px 50px 300px 40px 3000px 40px 250px 300px;
+    grid-template-rows: 100px 50px 300px 40px 1fr 40px 250px 280px 30px;
     grid-template-areas: 
     "a a a a a a a a a a a a"
     " b b b b b b b b b b b b"
@@ -10,11 +10,10 @@
      "e e e e e e e e e e e e"
      "f f f f f f f f f f  f f"
      "g g g g g g g g g g g g "
-     "h h h h h h h h h h h h";
+     "h h h h h h h h h h h h"
+     "x x x x x x x x x x x x ";
 }
-.contaner>div{
-    border: 1px solid black;
-}
+
 .header{
     grid-area:a;
     justify-content: space-evenly;
@@ -116,7 +115,6 @@ cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 .proDuct1>div{
-   border: 1px solid blueviolet;
    border-radius: 10px;
    
 }
@@ -134,7 +132,17 @@ cursor: pointer;
 .forflx{
     display: flex;
     height: 20px;
+    margin-left: 10px;
  
+}
+#sub>div>button{
+    margin-left: 10px;
+}
+#sub>div>i{
+    margin-left: 10px;
+}
+.proDuct1>p{
+    margin-left: 10px;
 }
 .forflx>p:nth-child(1){
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -154,7 +162,6 @@ cursor: pointer;
 }
 #sub{
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
 }
 #sub>div>button{
@@ -168,13 +175,11 @@ cursor: pointer;
    cursor: pointer;
 }
 #sub>div>i{
-    background-color: yellow;
     font-size: 20px;
     margin-top: 10px;
     border-radius: 50px;
 }
 .disc{
-    border: 1px solid yellow;
     display: flex;
     height: 60px;
     justify-content: space-between;
@@ -234,20 +239,61 @@ cursor: pointer;
       color: white;
       padding-top: 7px;
   }
+  /* ===================footer start=========================== */
 .footer{
     grid-area: h;
+    background-color: mediumseagreen;  
+    display: flex; 
 }
+.footer>div{
+    height: 90%;
+    width: 70%;
+   
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>div>div{
+    height: 100%;
+    width: 20%;
+   
+}
+.footer>div>div>h2{
+ font-size: Roboto, Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ color: white;
+}
+.footer>div>div>p{
+    color: white;
+    line-height: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cpy{
+    grid-area: x;
+    background-color:mediumseagreen;
+    margin-top: -20px;
 
+}
+.cpy>p{
+    font-size: Roboto, Arial, Helvetica, sans-serif;
+     font-size: 10px;
+     font-weight: 700;
+     text-align: center;
+     color: white;
+}
+/* ===================Footer End======================================= */
 .serchbar{
     height: 250px;
     width: 100%;
-    border: 1px solid red;
     background-color:whitesmoke;
     }
     .serchbar>div{
         height: 100%;
         width: 65%;
-        border: 1px solid green;
+        
         margin: auto;
     }
     .like{

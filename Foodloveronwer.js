@@ -10,4 +10,4 @@ document.querySelector("#memberlogin").addEventListener("click",function(){
 document.querySelector(".chan").addEventListener("click",function(){
     window.location.href="landing.html"
 });
-
+document.querySelector("")

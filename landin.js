@@ -35,4 +35,17 @@ function gofbpg(event){
         window.location.href="https://www.kindmeal.my/widget.htm"
         
     })
+document.querySelector("#art").addEventListener("click",function(){
+    window.location.href="artical.html"
+})
+document.querySelector("#kind-moment").addEventListener("click",function(){
+    window.location.href="Kindmoment.html"
+})
+document.querySelector("#coupon").addEventListener("click",function(){
+    window.location.href="mealdeal.html"
+})
+document.querySelector("#imgmap>div>p").addEventListener("click",function(){
+    window.location.href="mealdeal.html"
+})
+
 

@@ -11,11 +11,7 @@
       "z z z z z z z z z z z z";
 
 }
-.contaner>div{
-    border: 1px solid red;
-   
-   
-}
+
 .header{
     grid-area: a;
     justify-content: space-evenly;
@@ -105,14 +101,12 @@ cursor: pointer;
 .footer{
 grid-area: f;
 background-color: mediumseagreen;  
-border: 1px solid red;
 display: flex;  
 
 }
 .footer>div{
     height: 90%;
     width: 70%;
-    border: 1px solid red;
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -121,7 +115,6 @@ display: flex;
 .footer>div>div{
     height: 80%;
     width: 20%;
-    border: 1px solid khaki;
 }
 .footer>div>div>h2{
  font-size: Roboto, Arial, Helvetica, sans-serif;
@@ -160,7 +153,6 @@ font-size: Roboto, Arial, Helvetica, sans-serif;
 }
 .frmm{
     
-    border: 1px solid black;
     margin-right: 4%;
     width: 50%;
    
@@ -252,7 +244,7 @@ font-size: Roboto, Arial, Helvetica, sans-serif;
 
 }
 .blwopn{
-    font-size: 12px;
+    font-size: 18px;
 }
 .optn{
     height:25px;

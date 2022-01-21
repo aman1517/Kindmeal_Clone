@@ -78,17 +78,17 @@
            <div >
                <form class="">
             <span>Name</span>
-            <input type="text" name="first name" class="fillfrm1" placeholder="First Name">
-               <input type="text" class="fillfrm1" valu="" placeholder="Last Name" style="margin-left: 0px;"><br>
+            <input type="text" name="first name" class="fillfrm1" placeholder="First Name" id="fname">
+               <input id="lname" type="text" class="fillfrm1" valu="" placeholder="Last Name" style="margin-left: 0px;"><br>
                 
                <span>Email</span>
-               <input type="Email" placeholder="enter email" class="fillfrm"><br>
+               <input id="Ename" type="Email" placeholder="enter email" class="fillfrm"><br>
                <span>Re-Email</span>
                <input type="email" placeholder="Renter email" valu="" class="fillfrm"><br>
                <span>Password</span>
-               <input type="password" value="" placeholder="Enter password" class="fillfrm"><br>
+               <input id="pass" type="password" value="" placeholder="Enter password" class="fillfrm"><br>
                <span>User Name</span>
-               <input type="text" value="" placeholder="Enter username" class="fillfrm"><br>
+               <input id="userN" type="text" value="" placeholder="Enter username" class="fillfrm"><br>
                <span>Birth Date</span>
                
                <select name="" class="optndmy">
@@ -126,7 +126,7 @@
                    <option value="">31</option>
                </select>
                <select name="" class="optndmy">>
-                   <option value="">Month</option>
+                   <option value="" style="margin-right: 40px;">Month</option>
                    <option value="">Jan</option>
                    <option value="">Fev</option>
                    <option value="">Mar</option>
@@ -142,6 +142,16 @@
                </select>
                <select name="Year" id="Year" class="optndmy">
                    <option value="" id="year">Year</option>
+                   <option value="">1990</option>
+                   <option value="">1995</option>
+                   <option value="">1996</option>
+                   <option value="">1998</option>
+                   <option value="">200</option>
+                   <option value="">2001</option>
+                   <option value="">2002</option>
+                   <option value="">2003</option>
+                   <option value="">2004</option>
+                   <option value="">2005</option>
                </select><br>
                <span>Countery</span>
                <select name="Countery" class="optn">
@@ -162,22 +172,22 @@
                <span>States</span>
                <select name="States" class="optn">
                    <option value="">States</option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
-                   <option value=""></option>
+                   <option value="">Arunachal</option>
+                   <option value="">Andhra pardes</option>
+                   <option value="">Bihar</option>
+                   <option value="">Chatisghr</option>
+                   <option value="">Madhya paredes</option>
+                   <option value="">Karankta</option>
+                   <option value="">Tamilnadu</option>
+                   <option value="">Punjab</option>
+                   <option value="">Jharkhand</option>
+                   <option value="">Uttar pardesh</option>
+                   <option value="">Uttrakhand</option>
                </select><br>
-               <span class="blwopn">Gender</span>
-               <input type="radio" value="">
+               <span class="blwopn" >Gender</span>
+               <input type="radio" value="" class="radiobtn">
                <span class="blwopn">male</span>
-               <input type="radio" value="">
+               <input type="radio" value="" class="radiobtn">
                <span class="blwopn">female</span><br>
                <span  class="blwopn">Profile</span>
                <button class="slttg" >Select Photo</button>
@@ -261,4 +271,4 @@
     </div>
 </body>
 </html>
-
+<script src="SignUp.js"></script>
