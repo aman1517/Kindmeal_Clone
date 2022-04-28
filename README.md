@@ -8,8 +8,11 @@ Kindmeal.my is a website that has a lot of information on everything that is rel
 ## How to run the app?
 - Clone the repo and run the landing.html.
     - https://github.com/aman1517/project
+    - 
+## Deploy Link 🔗 
+https://famous-chaja-5d8859.netlify.app
 ## Project
-**We tried to implement a few of these pages**
+**I tried to implement a few of these pages**
 * Landing Page/Index page & details page
 * Login/SignUp page
 * Meals Page & details page 
