@@ -1,4 +1,4 @@
-# Team-Ganga
+# Kindmeal.my
 Clone of Kindmeal.my (https://www.kindmeal.my/)
 I have tried to create a clone of a malaysian food website kindmeal.my
 
