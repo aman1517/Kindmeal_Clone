@@ -23,4 +23,4 @@ Kindmeal.my is a website that has a lot of information on everything that is rel
 * login logout functionality using local storage.
 * Popup Signup and sign in page
 
-We have made it dynamic and have added functionalities using javascript ,css ,and html .We have created the repository and added seperate branches to work on each part of the pages, We have tried to clone pages as much as possible within the limited time frame.
+I have made it dynamic and have added functionalities using javascript ,css ,and html .I have created the repository and added seperate branches to work on each part of the pages, I have tried to clone pages as much as possible within the limited time frame.
